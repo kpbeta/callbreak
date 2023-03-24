@@ -31,7 +31,7 @@ class CallbreakHierarchy(GameInterface):
 
     # suit_preference capture the suit that started the play
     def comparePlays(self, a, b, suit_preference):
-        x = compareSuit(a, b, suit_preference)
+        x = compareSuits(a, b, suit_preference)
         return x if x !=0 else compareValues(a, b)
 
     def getWinningPlay(self, plays):

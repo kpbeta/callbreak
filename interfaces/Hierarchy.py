@@ -1,6 +1,6 @@
 class HierarchyInterface:
 
-    def compareSuit(self, a, b):
+    def compareSuits(self, a, b):
         """
         Compares the suit a to b and returns:
         -1 if a is less than b
@@ -10,7 +10,7 @@ class HierarchyInterface:
         raise NotImplementedError("compareSuit method not implemented")
 
     
-    def compareValue(self, a, b):
+    def compareValues(self, a, b):
         """
         Compares the value a to b and returns:
         -1 if a is less than b
